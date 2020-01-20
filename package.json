@@ -4,8 +4,8 @@
   "description": "Module to handle the user interfaces in real time using rxjs and socket io client",
   "main": "index.ts",
   "scripts": {
-    "dev": "",
-    "start": ""
+    "dev": "webpack-dev-server --mode development --colors --open",
+    "start": "webpack --mode production --colors"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Idsarth/rxjs_socket_client#readme",
   "devDependencies": {
+    "@types/rx": "4.1.1",
+    "@types/socket.io-client": "1.4.32",
     "babel-eslint": "10.0.3",
     "standard": "14.3.1",
     "ts-loader": "6.2.1",
@@ -39,5 +41,9 @@
     "ignore": [
       "/node_modules/**"
     ]
+  },
+  "dependencies": {
+    "rxjs": "6.5.4",
+    "socket.io-client": "2.3.0"
   }
 }
