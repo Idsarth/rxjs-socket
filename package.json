@@ -1,0 +1,43 @@
+{
+  "name": "rxjs-socket",
+  "version": "1.0.0",
+  "description": "Module to handle the user interfaces in real time using rxjs and socket io client",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idsarth/rxjs_socket_client.git"
+  },
+  "keywords": [
+    "rxjs",
+    "socket"
+  ],
+  "author": "Idsarth <idsarthdev19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Idsarth/rxjs_socket_client/issues"
+  },
+  "homepage": "https://github.com/Idsarth/rxjs_socket_client#readme",
+  "devDependencies": {
+    "babel-eslint": "10.0.3",
+    "standard": "14.3.1",
+    "ts-loader": "6.2.1",
+    "typescript": "3.7.5",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "standard": {
+    "ignore": [
+      "/node_modules/**"
+    ]
+  }
+}
